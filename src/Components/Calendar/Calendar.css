@@ -1,0 +1,41 @@
+.calendar {
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+.month-year {
+  font-size: 1.5em;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 5px;
+}
+
+.weekdays div {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 14vw);
+}
+
+.days div {
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 150px; /* Adjust as needed */
+}

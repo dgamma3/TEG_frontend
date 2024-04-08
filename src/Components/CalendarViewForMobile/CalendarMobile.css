@@ -1,0 +1,25 @@
+.schedule {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    color: #8A8D91;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title{
+    flex-grow: 1;
+    text-align: right
+}
